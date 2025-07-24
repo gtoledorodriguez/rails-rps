@@ -9,6 +9,7 @@ class ZebraController < ApplicationController
     @comp_move = MOVES.sample
     @our_move = "rock"
 
+    # debugger # Debugging Starts Here
     if @comp_move == @our_move
       @outcome = "tied"
     elsif @comp_move == "paper"
